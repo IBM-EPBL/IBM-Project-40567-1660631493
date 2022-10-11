@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>CUSTOMER CARE REGISTRY</h1>
+  <p>You will learn about how food from the different food groups helps the body to grow and heal, how the nutrients and the water we consume are transported through the body with the help of the digestive and the circulatory systems, how under-consumption and over-consumption of some products can hurt our body, and why it is important to develop positive body image and enjoy food.</p>
+  <p>Want to know more about healthyfoods <a href="file:///C:/xampp/htdocs/IP/login.html">clickhere</a></p>
+</div>
+
+<h2 style="text-align:center">HEALTHY FOODS</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://blog-images.pharmeasy.in/2021/01/04140120/shutterstock_390988804-1-810x540.jpg" alt="GREEN FOODS" style="width:100%">
+      <div class="container">
+        <h2>GREEN LEAF</h2>
+        <p>SOME TIPS ABOUT GREENFOODS</p>
+        <p>greenfood@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/heart-healthy-food-1580231690.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>HEALTHYFOODS</h2>
+        
+        <p>Some text about healthyfood</p>
+        <p>healthyfood@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="https://vaya.in/wp-content/uploads/2019/12/13-Healthy-Drinks-Your-Kids-Should-Be-Drinking.jpg" alt="John" style="width:100%">
+      <div class="container">
+        <h2>HEALTHY DRINKS</h2>
+       
+        <p>Some text about healthy drinks.</p>
+        <p>healthydrink@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
